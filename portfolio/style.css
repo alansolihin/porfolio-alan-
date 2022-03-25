@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #141313;
+}
+
+.container {
+  position: relative;
+}
+/* Navigasi */
+.container .nav {
+  position: relative;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container .nav .navigasi {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 80%;
+  margin-right: 20px;
+}
+
+.nav .navigasi li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+.nav .navigasi li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  transition: 2s;
+}
+
+.nav .navigasi li a:hover {
+  color: #960505;
+  transform: scale(1.2);
+}
+/* Akhir Navigasi */
+
+/* Home */
+
+.home {
+  position: relative;
+  top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.home .text {
+  position: relative;
+  left: 30px;
+  width: 40%;
+  height: 250px;
+
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.text p,
+.text h1 {
+  color: #fff;
+  padding-top: 5px;
+}
+
+.text .alan {
+  color: #960505;
+}
+
+.home .image {
+  width: 50%;
+  position: relative;
+  height: 350px;
+  opacity: 1;
+  filter: blur;
+  background-image: url(/image/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 100px;
+}
+/* Akhir Home */
+
+/* Sosmed   */
+
+.sosmed {
+  position: relative;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sosmed p {
+  display: flex;
+  text-align: center;
+  position: relative;
+  left: 24%;
+  font-size: 1.5em;
+  color: #fff;
+}
+.sosmed ul {
+  list-style: none;
+  position: relative;
+  left: -40%;
+  top: 40px;
+  display: flex;
+  margin-right: 20px;
+}
+
+.sosmed ul li {
+  position: relative;
+  top: 5px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+
+  font-size: 35px;
+}
+
+.sosmed ul li a {
+  position: relative;
+  margin: 2px auto;
+  color: #820e0e;
+  transition: 1s;
+}
+
+.sosmed ul li a:hover {
+  transform: scale(1.2);
+  color: #e02222;
+}
